@@ -7,10 +7,14 @@
   font-family: "Open Sans", sans-serif;
   list-style: none;
   text-decoration: none;
+  vertical-align: middle;
 }
 header {
   background-color: #fff8f3;
-  padding: 50px 0;
+  padding-top: 50px;
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
 }
 nav {
   width: 1140px;
@@ -37,6 +41,7 @@ button {
   font-weight: 700;
   padding: 20px 35px;
   cursor: pointer;
+  border-radius: 5px;
 }
 .logo {
   font-size: 45px;
@@ -45,3 +50,48 @@ button {
 .logoSpan {
   color: #fd6e0a;
 }
+
+/* Banner Section CSS */
+#bannerPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 47px 38px 0 200px;
+}
+.bannerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 585px;
+}
+.bannerLeft h2 {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+}
+.bannerLeft h1 {
+  font-weight: 700;
+  font-size: 85px;
+}
+.bannerLeft p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.buttonWrapper {
+  display: flex;
+  gap: 30px;
+}
+.bannerRight img {
+  width: 585px;
+}
+/* .bannerRight {
+  background-image: url("/images/header_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: end;
+  overflow: hidden;
+} */
