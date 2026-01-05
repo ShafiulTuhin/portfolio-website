@@ -165,7 +165,7 @@ button {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px 5px rgb(201, 194, 194);
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.6);
 }
 .mySkill .skillItems img {
   width: 50px;
@@ -175,4 +175,54 @@ button {
   line-height: 30px;
   font-size: 16px;
   color: #757575;
+}
+/* Education part CSS */
+#educationPart {
+  padding-bottom: 113px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#educationPart .educationHeading h2 {
+  text-align: center;
+  margin-bottom: 113px;
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+}
+.educationWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.educationItems {
+  margin-bottom: 60px;
+}
+.educationWrapper .educationLeft {
+  max-width: 511px;
+}
+.educationWrapper .educationLeft h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #474747;
+}
+.educationWrapper .educationLeft h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #474747;
+}
+.educationWrapper .educationLeft h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.educationWrapper .educationLeft p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.educationButton {
+  text-align: center;
 }
