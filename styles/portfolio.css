@@ -35,7 +35,7 @@ ul li a {
 }
 button {
   color: #ffffff;
-  background-color: #fd6e0a;
+  background-color: #04adcf;
   border: none;
   font-size: 20px;
   font-weight: 700;
@@ -55,9 +55,10 @@ button {
 /* Banner Section CSS */
 #bannerPart {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
-  margin: 47px 38px 0 200px;
+  margin: 47px 38px 0 230px;
 }
 .bannerLeft {
   display: flex;
@@ -65,6 +66,7 @@ button {
   justify-content: center;
   gap: 20px;
   width: 585px;
+  margin-left: 100px;
 }
 .bannerLeft h2 {
   color: #474747;
@@ -83,8 +85,8 @@ button {
 }
 .btn-modify {
   background-color: #fff8f3;
-  color: #fd6e0a;
-  border: 1px solid #fd6e0a;
+  color: #04adcf;
+  border: 1px solid #04adcf;
   margin-left: 20px;
 }
 
@@ -259,6 +261,8 @@ button {
 .social .icons {
   display: flex;
   gap: 24px;
+  color: #04adcf;
+  font-size: 24px;
 }
 .form {
   width: 462px;
