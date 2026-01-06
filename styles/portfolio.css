@@ -64,7 +64,7 @@ button:hover {
 
   justify-content: space-between;
   align-items: center;
-  margin: 47px 38px 0 230px;
+  margin: 47px 38px 0 200px;
 }
 .bannerLeft {
   display: flex;
@@ -72,7 +72,6 @@ button:hover {
   justify-content: center;
   gap: 20px;
   width: 585px;
-  margin-left: 100px;
 }
 .bannerLeft h2 {
   color: #474747;
